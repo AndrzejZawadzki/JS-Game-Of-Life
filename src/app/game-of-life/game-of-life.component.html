@@ -1,0 +1,11 @@
+<div *ngFor="let row of board; let rowIndex = index">
+  <div
+    *ngFor="let cell of row; let colIndex = index"
+    [class.alive]="cell"
+    (click)="toggleCell(rowIndex, colIndex)"
+    class="cell"
+  ></div>
+</div>
+<!-- <button (click)="startGame()">Start</button> -->
+<!-- <button (click)="stopGame()">Stop</button> -->
+<!-- <button (click)="resetGame()">Reset</button> -->
