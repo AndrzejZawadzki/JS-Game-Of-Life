@@ -1,8 +1,13 @@
+.row {
+  display: flex;
+}
 .cell {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  padding: 0px;
   display: inline-block;
-  border: 0.1px solid #ccc;
+  border: 0.1px solid #878787;
 }
 .alive {
   background-color: black;
